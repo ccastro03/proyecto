@@ -28,7 +28,9 @@
                     </div>
 
                     <div class="navbar-menu" id="navMenu">
-                        <div class="navbar-start"></div>
+                        <div class="navbar-start">
+							<a class="navbar-item" href="{{ url('/categorias/index') }}">Categorias</a>
+						</div>
 
                         <div class="navbar-end">
                             @if (Auth::guest())

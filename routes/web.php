@@ -19,3 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/categorias/index', 'CategoriasController@index')->name('Index Categorias');
+//Route::resource('/categorias', 'CategoriasController',['except' => ['destroy']]);
