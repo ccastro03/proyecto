@@ -681,6 +681,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v5.7.24",
             "source": {
                 "type": "git",
@@ -691,6 +692,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/2ede55db4b8201ed0450fa7e7a4d7220aa29bc34",
                 "reference": "2ede55db4b8201ed0450fa7e7a4d7220aa29bc34",
+=======
+            "version": "v5.7.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "25f74458a242b61cc9e9c09d31f94fb13ed805f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/25f74458a242b61cc9e9c09d31f94fb13ed805f3",
+                "reference": "25f74458a242b61cc9e9c09d31f94fb13ed805f3",
+>>>>>>> cb4cd51da992b3dc69b02aa6de1d3d9b658cc1ee
                 "shasum": ""
             },
             "require": {
@@ -823,7 +836,11 @@
                 "framework",
                 "laravel"
             ],
+<<<<<<< HEAD
             "time": "2019-01-29T22:13:46+00:00"
+=======
+            "time": "2019-01-15T15:20:32+00:00"
+>>>>>>> cb4cd51da992b3dc69b02aa6de1d3d9b658cc1ee
         },
         {
             "name": "laravel/nexmo-notification-channel",
